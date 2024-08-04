@@ -13,7 +13,7 @@ interface WordFadeInProps {
 
 export default function WordFadeIn({
   words,
-  delay = 0.15,
+  delay = 0.10,
   variants = {
     hidden: { opacity: 0 },
     visible: (i: any) => ({
