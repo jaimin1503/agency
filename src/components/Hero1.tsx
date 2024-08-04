@@ -3,6 +3,11 @@ import { FadeText } from "@/components/magicui/fade-text";
 import GridPattern from "@/components/magicui/animated-grid-pattern";
 import ShimmerButton from "@/components/magicui/shimmer-button";
 import { cn } from "@/lib/utils";
+import ShinyButton from "./magicui/shiny-button";
+import webPic from "../../public/assets/web-photo.png"
+import ShineBorder from "./magicui/shine-border";
+import { BorderBeam } from "./magicui/border-beam";
+import Hero1Image from "./Hero1Image";
 
 const Hero1 = () => {
   return (
@@ -19,11 +24,13 @@ const Hero1 = () => {
           )}
         />
         <div className="z-10 flex min-h-[8rem] items-center justify-center">
-          <ShimmerButton className="shadow-2xl" shimmerSize="0.08rem">
-            <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-              Get Started &gt;
-            </span>
-          </ShimmerButton>
+
+          <ShineBorder color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}>
+            <button className=" colourful-button">
+              Introducing the Agency
+            </button>
+          </ShineBorder>
+
         </div>
         {/* <WordFadeIn words="Crafting Exceptional Websites That Drive Success" /> */}
         <div className=" w-full text-center">
@@ -37,6 +44,10 @@ const Hero1 = () => {
           We provide top-notch web development services tailored to your
           business needs.
         </h1>
+
+        <ShinyButton text="Get Started &rarr;" className=" my-5" />
+
+        <Hero1Image />
       </div>
     </div>
   );

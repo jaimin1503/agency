@@ -81,6 +81,24 @@ const config = {
             transform: "translateZ(0) rotate(360deg)",
           },
         },
+        "border-beam": {
+          "100%": {
+            "offset-distance": "100%",
+          },
+        },
+
+        "shine-pulse": {
+          "0%": {
+            "background-position": "0% 0%",
+          },
+          "50%": {
+            "background-position": "100% 100%",
+          },
+          to: {
+            "background-position": "0% 0%",
+          },
+        },
+
         slide: {
           to: {
             transform: "translate(calc(100cqw - 100%), 0)",
@@ -91,6 +109,7 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
+        "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
         slide: "slide var(--speed) ease-in-out infinite alternate",
       },
     },
