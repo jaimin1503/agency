@@ -59,6 +59,11 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        gradient: {
+          to: {
+            backgroundPosition: "var(--bg-size) 0",
+          },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -111,6 +116,7 @@ const config = {
         "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
         "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
         slide: "slide var(--speed) ease-in-out infinite alternate",
+        gradient: "gradient 8s linear infinite",
       },
     },
   },

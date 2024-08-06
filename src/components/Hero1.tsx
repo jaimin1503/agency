@@ -1,3 +1,5 @@
+'use client'
+
 import WordFadeIn from "@/components/magicui/word-fade-in";
 import { FadeText } from "@/components/magicui/fade-text";
 import GridPattern from "@/components/magicui/animated-grid-pattern";
@@ -8,6 +10,8 @@ import webPic from "../../public/assets/web-photo.png"
 import ShineBorder from "./magicui/shine-border";
 import { BorderBeam } from "./magicui/border-beam";
 import Hero1Image from "./Hero1Image";
+import { motion } from "framer-motion";
+import { AnimatedGradientTextDemo } from "./magicui/AnimatedGradientText";
 
 const Hero1 = () => {
   return (
@@ -23,29 +27,61 @@ const Hero1 = () => {
             "inset-x-0 inset-y-[-50%] h-[200%] skew-y-12"
           )}
         />
-        <div className="z-10 flex min-h-[8rem] items-center justify-center">
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.7,
+            delay: 0.5,
+            ease: "easeInOut",
+          }}
+          className="z-10 flex min-h-[1rem] items-center justify-center">
 
-          <ShineBorder color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}>
-            <button className=" colourful-button">
-              Introducing the Agency
-            </button>
-          </ShineBorder>
+          <AnimatedGradientTextDemo />
 
-        </div>
+        </motion.div>
         {/* <WordFadeIn words="Crafting Exceptional Websites That Drive Success" /> */}
-        <div className=" w-full text-center">
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.7,
+            delay: 0.5,
+            ease: "easeInOut",
+          }}
+
+          className=" w-full text-center">
           <FadeText
             text="Crafting Exceptional Websites That Drive Success"
             direction="down"
             className=" md:text-7xl font-extrabold heading-gradient tracking-tight text-center w-full text-4xl "
           />
-        </div>
-        <h1 className=" text-xl py-5 text-gray-400 font-light">
+        </motion.div>
+        <motion.h1
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.6,
+            ease: "easeInOut",
+          }}
+          className=" text-xl py-5 text-gray-400 font-light">
           We provide top-notch web development services tailored to your
           business needs.
-        </h1>
+        </motion.h1>
 
-        <ShinyButton text="Get Started &rarr;" className=" my-5" />
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.7,
+            ease: "easeInOut",
+          }}
+          className="flex flex-col gap-4">
+          <ShinyButton text="Get Started &rarr;" className=" my-5" />
+        </motion.div>
+
 
         <Hero1Image />
       </div>
