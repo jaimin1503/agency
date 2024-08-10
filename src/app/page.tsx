@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import "./globals.css";
 import Hero1 from "../components/Hero1";
 import { Hero2 } from "../components/Hero2";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <Hero1 />
       <Hero2 />
+      <Footer />
     </main>
   );
 }
