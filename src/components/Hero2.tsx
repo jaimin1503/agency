@@ -1,11 +1,7 @@
-import { CalendarIcon, CodeIcon, DesktopIcon, SewingPinIcon } from "@radix-ui/react-icons";
-import { BellIcon, Share2Icon } from "lucide-react";
-
-import { cn } from "@/lib/utils";
-// import { Calendar } from "@/components/ui/calendar";
+import { CodeIcon, DesktopIcon, SewingPinIcon } from "@radix-ui/react-icons";
+import { Share2Icon } from "lucide-react";
 import { BentoCard, BentoGrid } from "@/components/magicui/bento-grid";
 import { FadeText } from "./magicui/fade-text";
-// import Marquee from "@/components/magicui/marquee";
 
 const services = [
 	{

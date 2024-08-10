@@ -34,7 +34,7 @@ const GLOBE_CONFIG: COBEOptions = {
   ],
 };
 
-export default function Globe({
+export default async function Globe({
   className,
   config = GLOBE_CONFIG,
 }: {

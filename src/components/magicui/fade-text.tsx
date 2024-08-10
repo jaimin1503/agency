@@ -10,7 +10,7 @@ type FadeTextProps = {
   text: string;
 };
 
-export function FadeText({
+export async function FadeText({
   direction = "up",
   className,
   framerProps = {

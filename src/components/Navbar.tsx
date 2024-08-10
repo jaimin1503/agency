@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { Button } from "./ui/button"
 
 const Navbar = () => {
 	return (
@@ -14,9 +13,12 @@ const Navbar = () => {
 					</Link>
 				</div>
 			</div>
-			<div className="right mx-10">
-				<Button variant="default" className=" mx-4" >Log in</Button>
-				<Button variant="secondary" className=" mx-4" >Sign up</Button>
+
+			<div className="right flex max-w-2xl mr-4 md:mr-10 space-x-8">
+				<Link href="/" className="link">Home</Link>
+				<Link href="/about" className="link">About</Link>
+				<Link href="/" className="link">Services</Link>
+				<Link href="/" className="link">Contact</Link>
 			</div>
 		</div>
 	)

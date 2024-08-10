@@ -1,5 +1,3 @@
-"use client";
-
 import { motion, type AnimationProps } from "framer-motion";
 
 import { cn } from "@/lib/utils";
