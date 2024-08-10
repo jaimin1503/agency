@@ -23,7 +23,7 @@ const companaydata = [
 export const Glimps = () => {
 	return (
 		<div className="relative w-screen flex flex-col py-20 justify-center items-center">
-			<h1 className=" text-3xl sm:text-5xl font-bold heading-gradient mb-10">Glimps of our achievements</h1>
+			<h1 className=" text-center text-3xl sm:text-5xl font-bold heading-gradient mb-10">Glimps of our achievements</h1>
 			<Particles
 				className="absolute inset-0"
 				quantity={100}

@@ -14,11 +14,13 @@ const Navbar = () => {
 				</div>
 			</div>
 
-			<div className="right flex max-w-2xl mr-4 md:mr-10 space-x-8">
-				<Link href="/" className="link">Home</Link>
-				<Link href="/about" className="link">About</Link>
-				<Link href="/" className="link">Services</Link>
-				<Link href="/" className="link">Contact</Link>
+			<div className="right max-w-2xl mr-4 md:mr-10 hidden md:flex">
+				<div className="space-x-8 flex">
+					<Link href="/" className="link">Home</Link>
+					<Link href="/about" className="link">About</Link>
+					<Link href="/" className="link">Services</Link>
+					<Link href="/" className="link">Contact</Link>
+				</div>
 			</div>
 		</div>
 	)

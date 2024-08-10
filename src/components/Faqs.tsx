@@ -37,11 +37,11 @@ export const Faqs = () => {
 	return (
 		<div className=" flex flex-col items-center justify-center">
 			<h1 className=" text-3xl sm:text-5xl font-bold heading-gradient p-2">Technologies we use</h1>
-			<div className=" flex flex-col md:flex-row w-screen justify-evenly items-center">
-				<div className="icon-cloud w-1/2">
+			<div className=" flex flex-col lg:flex-row w-screen justify-evenly items-center">
+				<div className="icon-cloud max-w-xl lg:w-1/2">
 					<IconCloudDemo />
 				</div>
-				<div className="accordion w-1/2 m-2">
+				<div className="accordion w-screen md:w-1/2 m-2">
 					{
 						faqs.map((faq, index) => (
 							<Accordion type="single" collapsible className="w-full p-2" key={index}>
