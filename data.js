@@ -3,6 +3,18 @@ export const about_us = {
   data: "La Net Team Software Solutions Pvt. Ltd is a software outsourcing company that focuses on highly qualitative, timely delivered and cost effective offshore software development services to its clients. We are premiere top ranked providers on Upwork- world's most popular third-party sourcing platform. We adhere to stringent quality standards and flexible business practices with at most professionalism, so as to enable our clients to operate more efficiently and gain an edge over their competitors. Each of our professionals is experienced, detail oriented Senior Software Engineer with strong problem solving, communication and project management skills. Because of our commitment towards quality and high standard services The high point throughout the journey of La Net Team has been its professional bonding with myriad of clients all over the globe.",
 };
 
+export const value = {
+  data: "Our company is built on a strong foundation of values that guide everything we do. We believe that these values are more than just words on a page; they are the cornerstone of our business and the reason why we have been so successful.",
+};
+
+export const mission = {
+  data: "At our company, our mission is centered around creating strong and lasting relationships with our customers. We believe that by providing exceptional products and services that meet their needs and exceed their expectations, we can achieve this goal.",
+};
+
+export const vision = {
+  data: "Our company is driven by a strong sense of purpose and a shared vision of making a positive impact on the world. We are committed to using our skills, expertise, and resources to turn this vision into reality.",
+};
+
 //done
 export const header = [
   {
@@ -199,11 +211,6 @@ export const services = [
       "At our company, we possess a natural aptitude for integrating the appropriate technology, strategy, and design to create modern websites that breathe life into your brand.",
   },
   {
-    name: "Backend Development",
-    description:
-      "Gift your audience a unified digital experience with our entire spectrum of portal development services, from web portal design, development, and modernization to consulting.",
-  },
-  {
     name: "Website Design",
     description:
       "Our design team creates visually stunning and user-friendly websites that align with your brand's identity and provide an intuitive user experience.",
@@ -232,11 +239,6 @@ export const services = [
     name: "Software Testing",
     description:
       "Our comprehensive software testing services ensure your applications are free of bugs, meet quality standards, and perform optimally under all conditions.",
-  },
-  {
-    name: "Security Measurements",
-    description:
-      "We provide top-notch security solutions to protect your applications from vulnerabilities, ensuring data integrity and safeguarding against cyber threats.",
   },
 ];
 
@@ -339,5 +341,141 @@ export const testimonials = [
     photo: "path_to_photo8.jpg",
     feedback:
       "The Support & Maintenance services they provide are exceptional. Their team is always available to address any issues or updates we need, ensuring our systems run smoothly at all times. Their proactive approach to maintenance has saved us time and resources.",
+  },
+];
+
+//done
+
+//title
+//technologies
+//benefits of that tech
+
+export const detailswork = [
+  {
+    title: "Web Development",
+    description: [
+      "Nowadays, the website is the first point of contact for real customers. Web design & development services can have a big financial effect on your business. Almost 99% of a user’s first impression comes from your website.",
+      "Frontlink Technology offers web design and development services to make a powerful impact on your online business. We build websites that not only are affordable, but are easy to navigate, responsive, bring in high conversion rates, and significantly grow your brand.",
+      "From personal websites to e-stores [e-store], and corporate websites to custom web apps, Frontlink Technology is the all-in-one platform to create beautiful & interactive websites that engage visitors.",
+    ],
+  },
+  {
+    title: "UI/UX Design",
+    description: [
+      "We design visually stunning & user-friendly customer experiences. The Design division at Frontlink Technology works as an independent wing with a dedicated team of User Interface (UI) Designers, User Experience (UX) Designers, Graphic Designers, and Animators.",
+      "We follow industry standards and create UI/UX based on design guidelines. UI/UX design services we offer include: UI Design, UX Design, Interaction Design, and Prototyping.",
+    ],
+  },
+  {
+    title: "Frontend Development",
+    description: [
+      "With the help of front-end technologies, developers create the design, structure, animation, and everything that you see on the screen while opening up a website, web application, or mobile app.",
+      "It plays a major role in engaging the users and encouraging them to take action. If your application’s front-end works seamlessly, users would love to use it and recommend it to others.",
+      "The prime goal of front-end development tools and technologies is to help mobile and web developers increase their efficiency and make the development process quicker, simpler, and better.",
+    ],
+  },
+  {
+    title: "Backend Development",
+    description: [
+      "Backend is the server-side of the website. It stores and arranges data, and also makes sure everything on the client-side of the website works fine. It is the part of the website that you cannot see and interact with. It is the portion of software that does not come in direct contact with the users.",
+      "The parts and characteristics developed by backend designers are indirectly accessed by users through a front-end application. Activities like writing APIs, creating libraries, and working with system components without user interfaces or even systems of scientific programming, are also included in the backend.",
+    ],
+  },
+  {
+    title: "SEO (Search Engine Optimization)",
+    description: [
+      "SEO (Search Engine Optimization) is crucial for improving the visibility of your website on search engines like Google. With effective SEO strategies, your website can achieve higher rankings in search results, driving more organic traffic and potential customers.",
+      "Frontlink Technology provides comprehensive SEO services, including keyword research, on-page optimization, link building, and content creation. Our goal is to help your website rank higher and attract quality traffic that converts into leads and sales.",
+      "By staying updated with the latest SEO trends and search engine algorithms, we ensure that your website remains competitive and performs well in search results.",
+    ],
+  },
+  {
+    title: "Support & Maintenance",
+    description: [
+      "Support & Maintenance services are essential for ensuring the smooth and uninterrupted operation of your website or application. Regular updates, bug fixes, and performance optimizations are critical to keeping your digital assets running efficiently.",
+      "Frontlink Technology offers ongoing support and maintenance services, including software updates, security patches, and technical support. Our team is available to address any issues that may arise and ensure that your website remains up-to-date and secure.",
+      "With our proactive approach, we help you avoid potential problems before they occur, allowing you to focus on growing your business.",
+    ],
+  },
+];
+
+export const detailsworks = [
+  {
+    title: "Web Development",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Angular", "Node.js"],
+    benefits: [
+      "Highly customizable and scalable websites.",
+      "Responsive designs that work across all devices.",
+      "High conversion rates due to user-friendly interfaces.",
+      "Integration with various third-party services.",
+      "SEO-friendly development to improve search engine rankings.",
+    ],
+  },
+  {
+    title: "UI/UX Design",
+    technologies: ["Figma", "Adobe XD", "Sketch", "InVision", "Balsamiq"],
+    benefits: [
+      "Visually stunning and user-friendly designs.",
+      "Improved customer satisfaction and engagement.",
+      "Streamlined user experience, leading to higher retention rates.",
+      "Prototyping and testing before final implementation.",
+      "Consistency in design across all platforms.",
+    ],
+  },
+  {
+    title: "Frontend Development",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Vue.js"],
+    benefits: [
+      "Attractive and responsive user interfaces.",
+      "Seamless user experience across devices.",
+      "Efficient rendering and loading times.",
+      "Reusable components for faster development.",
+      "Enhanced interactivity and engagement.",
+    ],
+  },
+  {
+    title: "Backend Development",
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "Django",
+      "Ruby on Rails",
+      "Spring Boot",
+    ],
+    benefits: [
+      "Robust and scalable server-side applications.",
+      "Efficient data storage and management.",
+      "Secure APIs and data handling.",
+      "Support for high traffic and large-scale applications.",
+      "Seamless integration with frontend and third-party services.",
+    ],
+  },
+  {
+    title: "SEO (Search Engine Optimization)",
+    technologies: [
+      "Google Analytics",
+      "Google Search Console",
+      "SEMrush",
+      "Ahrefs",
+      "Yoast SEO",
+    ],
+    benefits: [
+      "Higher visibility on search engines.",
+      "Increased organic traffic and potential customers.",
+      "Improved website ranking for target keywords.",
+      "Better user engagement and conversion rates.",
+      "Ongoing monitoring and optimization for long-term success.",
+    ],
+  },
+  {
+    title: "Support & Maintenance",
+    technologies: ["Jira", "Zendesk", "Nagios", "New Relic", "GitHub"],
+    benefits: [
+      "Ensures smooth operation of digital assets.",
+      "Regular updates and performance optimizations.",
+      "Quick resolution of issues and bugs.",
+      "Enhanced security with regular patches.",
+      "Proactive monitoring to prevent downtime.",
+    ],
   },
 ];

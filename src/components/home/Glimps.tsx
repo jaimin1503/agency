@@ -1,23 +1,23 @@
 'use client'
 
-import Particles from "./magicui/particles"
+import Particles from "../magicui/particles"
 
 const companaydata = [
 	{
 		title: "Active Members",
-		value: "+12k",
+		value: "0",
 	},
 	{
 		title: "Total Project",
-		value: "+1k",
+		value: "0",
 	},
 	{
 		title: "Team Member",
-		value: "+265",
+		value: "+5",
 	},
 	{
 		title: "Total revenue",
-		value: "+$1M",
+		value: "0",
 	},
 ];
 export const Glimps = () => {

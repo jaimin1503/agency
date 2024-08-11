@@ -1,14 +1,14 @@
 import { CodeIcon, DesktopIcon, SewingPinIcon } from "@radix-ui/react-icons";
 import { Share2Icon } from "lucide-react";
 import { BentoCard, BentoGrid } from "@/components/magicui/bento-grid";
-import { FadeText } from "./magicui/fade-text";
+import { FadeText } from "../magicui/fade-text";
 
 const services = [
 	{
 		Icon: CodeIcon,
 		name: "Web Development",
 		description: "Building responsive and high-quality websites tailored to your needs.",
-		href: "#",
+		href: "/service/web-development",
 		cta: "Learn more",
 		className: "col-span-3 lg:col-span-1",
 		background: (

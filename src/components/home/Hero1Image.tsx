@@ -1,4 +1,4 @@
-import { BorderBeam } from "./magicui/border-beam"
+import { BorderBeam } from "../magicui/border-beam"
 import { motion } from "framer-motion"
 
 const Hero1Image = () => {

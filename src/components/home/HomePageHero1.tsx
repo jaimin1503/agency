@@ -2,15 +2,15 @@
 
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
-import GridPattern from "./magicui/animated-grid-pattern";
-import { AnimatedGradientTextDemo } from "./magicui/AnimatedGradientText";
-import { FadeText } from "./magicui/fade-text";
-import ShinyButton from "./magicui/shiny-button";
+import GridPattern from "../magicui/animated-grid-pattern";
+import { AnimatedGradientTextDemo } from "../magicui/AnimatedGradientText";
+import { FadeText } from "../magicui/fade-text";
+import ShinyButton from "../magicui/shiny-button";
 import Hero1Image from "./Hero1Image";
 
 export const HomePageHero1 = () => {
 	return (
-		<div className="container flex flex-col justify-center items-center dark mt-10 sm:mt-20 xl:max-w-[80%] lg:max-w-[90%]">
+		<div className="container flex flex-col justify-center items-center dark pt-10 sm:pt-20 xl:max-w-[80%] lg:max-w-[90%]">
 			<GridPattern
 				numSquares={30}
 				maxOpacity={0.3}
